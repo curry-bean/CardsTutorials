@@ -127,45 +127,7 @@
                     android:contentDescription="eyeicon" />
             </LinearLayout>
         </LinearLayout>
-        <LinearLayout
-            android:id="@+id/addDeposit"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_gravity="center_vertical"
-            android:gravity="end"
-            android:layout_marginEnd="8dp"
-            android:layout_marginTop="5dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center_vertical"
-                android:gravity="end">
-
-                <ImageView
-                    android:id="@+id/add"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:elevation="5dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center"
-                    android:src="@drawable/ic_add" />
-                <TextView
-                    android:id="@+id/deposit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:gravity="center"
-                    android:elevation="5dp"
-                    android:fontFamily="@font/baloo"
-                    android:textColor="@color/black"
-                    android:text="Deposit"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-        </LinearLayout>
+       
     </androidx.cardview.widget.CardView>
 
     <!-- TextView "Operations" at the top of GridLayout -->
@@ -367,17 +329,7 @@
             android:gravity="center"
             android:visibility="gone">
 
-            <!-- Lottie AnimationView -->
-            <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/lottieAnimationView"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="8dp"
-                app:lottie_autoPlay="true"
-                app:lottie_loop="true"
-                app:lottie_rawRes="@raw/ghostempty" />
-
+           
             <!-- Text for no transactions available -->
             <TextView
                 android:layout_width="wrap_content"
@@ -443,17 +395,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:orientation="horizontal">
-                <!-- Lottie AnimationView -->
-                <com.airbnb.lottie.LottieAnimationView
-                    android:id="@+id/lottieAnimationView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="8dp"
-                    app:lottie_autoPlay="true"
-                    app:lottie_loop="true"
-                    app:lottie_rawRes="@raw/ghostempty" />
-
+             
                 <LinearLayout
                     android:id="@+id/savingsPlotLayout"
                     android:layout_width="match_parent"
